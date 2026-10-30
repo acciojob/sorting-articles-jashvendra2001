@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#band {
+  list-style-type: square;
+  list-style-position: inside;
+  background: white;
+  width: 65%;
+  max-width: 625px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#band li {
+  padding: 25px;
+  font-size: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+#band li:last-child {
+  border-bottom: none;
+}
